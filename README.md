@@ -12,14 +12,14 @@ Output
 ----------------
 1. gives number of heads
 2. gives number of tails
-3. graphs the results
+3. The script will also auto generate a graph, that shows the results
 
 
 Experiment
 ------------------
 I did a 100,000 random coin tosses. 
 
-<h1>Results</h1>
+<h5>Results</h5>
 
 
 Count of tails: 50068 
@@ -29,7 +29,7 @@ Tails: 50.07%
 Heads: 49.93%
 
 
-<h1>Issue</h1>
+<h5>Issue</h5>
 
 Total script run time: ~2min 39 sec
 
