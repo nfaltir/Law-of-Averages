@@ -1,6 +1,12 @@
-Law of Large Numbers or Law of Averages
+Law of Large Numbers ⚖️
 =========================================
 
+Overview
+-----------------
+
+In probability theory, the law of large numbers (LLN) is a theorem that describes the result of performing the same experiment a large number of times. According to the law, the average of the results obtained from a large number of trials should be close to the expected value and will tend to become closer to the expected value as more trials are performed.(<a href="https://en.wikipedia.org/wiki/Law_of_large_numbers#cite_note-:0-1">Wikki</a>)
+
+<br>
 
 
 User input
@@ -8,30 +14,33 @@ User input
 1. enter the number of randomized coin tosses
 
 
+<br>
+
 Output
 ----------------
 1. gives number of heads
 2. gives number of tails
 3. The script will also auto generate a graph, that shows the results
 
+<br>
 
 Experiment
 ------------------
-I did a 100,000 random coin tosses. 
+Number of random coin tossess: 100,000
 
-<h5>Results</h5>
+<br>
+
+<h3>Results</h3>
+
+<code>
+Count of tails: 50068 <br>
+Count of heads: 49932 <br>
+
+Tails: 50.07% <br>
+Heads: 49.93% <br>
+</code>
 
 
-Count of tails: 50068 
-Count of heads: 49932
-
-Tails: 50.07%
-Heads: 49.93%
 
 
-<h5>Issue</h5>
 
-Total script run time: ~2min 39 sec
-
-I think 2+ mins was too long. We will need to opitmize the code 
-Next objective: write a recrusive alogthrim (memoization) to dramatically decrease the run time to seconds.
