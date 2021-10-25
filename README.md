@@ -40,6 +40,15 @@ Tails: 50.07% <br>
 Heads: 49.93% <br>
 </code>
 
+<br>
+
+<i>Auto generated graph</i>
+
+<br>
+
+<img src="pic1.png"
+     alt="example-energy"
+     style="float: left; margin-right: 10px; margin-bottom: 50px;" />
 
 
 
