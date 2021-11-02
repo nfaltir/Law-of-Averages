@@ -1,49 +1,64 @@
 import random
+import pandas as pd
 import matplotlib.pyplot as plt
 
 
 print("\n====================Law of Averages====================\n")
-myList = ['heads', 'tails']
-count = 0
+myList = ['head', 'tail']
+tail = 0
+head = 0
 
 # user input to determine range
-rangeLength = int(input("Please enter the number of coin toss:"))
+rangeLength = int(input("Please enter the number of coin toss: "))
 for newList in range(1, rangeLength):
 
     newList = random.choice(myList)
-    print(newList)
+    #print(newList)
     # count tails in random list
-    if(newList == 'tails'):
-
-        count = count + 1
+    if(newList == 'tail'):
+        tail = tail + 1
+    if(newList == 'head'):
+            head = head + 1
 # count heads
-heads = rangeLength - count
-tailPercent = count/rangeLength*100
-headPercent = heads/rangeLength*100
+heads = rangeLength - tail
+tails = rangeLength - head
+tailPercent = round(tails/rangeLength*100,3)
+headPercent = round(heads/rangeLength*100,3)
 print("Number of coin toss: ", rangeLength)
-print("total tails: ", count)
+print("total tails: ", tails)
 print("total heads: ", heads)
 print('')
 
 # use round function to eleminate messy percentage
-print("Percent of tails:", round(tailPercent, 2), "%")
-print("Percent of heads:", round(headPercent, 2), "%")
+print("Percent of tails:", round(tailPercent, 3), "%")
+print("Percent of heads:", round(headPercent, 3), "%")
+
+
 
 
 # visualize the data
 
 # pie layout
 labels = ['heads', 'tails']
-sizes = [heads, count]
-explode = (0, 0.1)
+
+sizes = [heads, tails]
+explode = (0, 0.07)
 
 # pie colors
-colors = ['#67eaca', '#52de97']
+colors = ['#8FC1D4', '#52de97']
+
 
 Results, ax1 = plt.subplots()
-ax1.pie(sizes, explode=explode, colors=colors, labels=labels, autopct='%1.1f%%',
+ax1.pie(sizes, explode=explode, autopct='%1.2f%%',  colors=colors, labels=labels,
         shadow=True, startangle=90)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
-plt.title("Coin toss results")
+ax1.legend(loc="best", title="Results")
+
+
+
+plt.title(f"Number of Coin Tosses: {rangeLength}")
 plt.show()
+
+
+
