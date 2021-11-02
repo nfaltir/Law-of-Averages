@@ -24,32 +24,57 @@ Output
 
 <br>
 
-Experiment
-------------------
-Number of random coin tossess: 100,000
+Experiment #1
+------------------------------
+
+<h3>Number of random coin tossess: <u>100</u></h3>
 
 <br>
 
 <h3>Results</h3>
 
 <code>
-Count of tails: 50068 <br>
-Count of heads: 49932 <br>
+Count of tails: 54 <br>
+Count of heads: 47 <br>
 
 Tails: 50.07% <br>
 Heads: 49.93% <br>
 </code>
 
 <br>
-
 <i>Auto generated graph</i>
+<br>
+<img src="assets/hundred.png"
+     alt=""
+     style="float: left; margin-right: 10px; margin-bottom: 50px; border-radius: 20px;" />
+
+<br>
+<hr>
+
+
+Experiment #2
+------------------------------
+
+<h3>Number of random coin tossess: <u>1 Million</u></h3>
+
 
 <br>
 
-<img src="pic1.png"
-     alt="example-energy"
-     style="float: left; margin-right: 10px; margin-bottom: 50px;" />
+<h3>Results</h3>
 
+<code>
+Count of tails: 500,056 <br>
+Count of heads: 499,945 <br>
+
+Tails: 50.07% <br>
+Heads: 49.93% <br>
+</code>
+
+<br>
+<br>
+<img src="assets/1M.png"
+     alt=""
+     style="float: left; margin-right: 10px; margin-bottom: 50px;" />
 
 
 
