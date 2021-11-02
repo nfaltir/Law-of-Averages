@@ -27,7 +27,7 @@ Output
 Experiment #1
 ------------------------------
 
-<h3>Number of random coin tossess: <u>100</u></h3>
+<h3>Coin tossess: <u>100</u></h3>
 
 <br>
 
@@ -49,13 +49,13 @@ Heads: 49.93% <br>
      style="float: left; margin-right: 10px; margin-bottom: 50px; border-radius: 20px;" />
 
 <br>
-<hr>
+
 
 
 Experiment #2
 ------------------------------
 
-<h3>Number of random coin tossess: <u>1 Million</u></h3>
+<h3>Coin tossess: <u>1 Million</u></h3>
 
 
 <br>
