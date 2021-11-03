@@ -34,11 +34,11 @@ Experiment #1
 <h3>Results</h3>
 
 <code>
-Count of tails: 54 <br>
-Count of heads: 47 <br>
+Count of tails: 54<br>
+Count of heads: 47<br>
 
-Tails: 50.07% <br>
-Heads: 49.93% <br>
+Tails: 50.07%<br>
+Heads: 49.93%<br>
 </code>
 
 <br>
@@ -63,11 +63,11 @@ Experiment #2
 <h3>Results</h3>
 
 <code>
-Count of tails: 500,056 <br>
-Count of heads: 499,945 <br>
+Count of tails: 500,056<br>
+Count of heads: 499,945<br>
 
-Tails: 50.07% <br>
-Heads: 49.93% <br>
+Tails: 50.07%<br>
+Heads: 49.93%<br>
 </code>
 
 <br>
